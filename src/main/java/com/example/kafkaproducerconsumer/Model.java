@@ -28,4 +28,12 @@ public class Model {
     public void setSecondaryField(String secondaryField) {
         this.secondaryField = secondaryField;
     }
+
+    @Override
+    public String toString() {
+        return "Model{" +
+                "primaryField='" + primaryField + '\'' +
+                ", secondaryField='" + secondaryField + '\'' +
+                '}';
+    }
 }
